@@ -48,9 +48,9 @@ export default function MovieCard({ data }: MovieCardProps) {
                         className="flex flex-col gap-1  w-[270px] md:w-[230px]"
                     >
                         <div className="relative group">
-                            <div className="absolute top-0 left-0 right-0 bottom-0 w-full h-full bg-transparent  group-hover:bg-black/80 transition-all duration-300">
+                            <div className="absolute top-0 left-0 right-0 bottom-0 w-full h-full bg-transparent  xl:group-hover:bg-black/80 transition-all duration-300">
                                 <Link
-                                    className="flex items-center justify-center h-full scale-0 group-hover:scale-100 transition-all duration-300"
+                                    className="flex items-center justify-center h-full scale-0 xl:group-hover:scale-100 transition-all duration-300"
                                     href={
                                         data?.title
                                             ? `/movies/${data?.id}`
