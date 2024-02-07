@@ -23,7 +23,6 @@ export default function SearchBar() {
 
     useEffect(() => {
         window.addEventListener("click", () => setSearchActive(false));
-        window.addEventListener("scroll", () => setSearchActive(false));
     });
 
     return (
