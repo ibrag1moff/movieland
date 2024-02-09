@@ -32,7 +32,7 @@ export default function MovieCard({ data }: MovieCardProps) {
     return (
         <>
             {loading ? (
-                <div className="flex flex-col gap-1">
+                <div className="flex flex-col items-center justify-center gap-1">
                     <Skeleton width={230} height={344} borderRadius={12} />
                     <Skeleton width={230} height={28} borderRadius={12} />
                     <Skeleton width={230} height={32} borderRadius={12} />
